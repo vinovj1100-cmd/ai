@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.prose {
+  @apply text-sm leading-relaxed;
+}
+
+.prose p {
+  @apply mb-4 last:mb-0;
+}
+
+.prose ul, .prose ol {
+  @apply mb-4 ml-4 list-disc;
+}
+
+.prose code {
+  @apply px-1.5 py-0.5 rounded bg-white/10 font-mono text-[0.8em];
+}
+
+.prose pre {
+  @apply p-4 rounded-xl bg-black/40 border border-white/10 overflow-x-auto mb-4;
+}
+
+.prose pre code {
+  @apply p-0 bg-transparent rounded-none;
+}
+
+.prose h1, .prose h2, .prose h3 {
+  @apply font-bold mb-2 mt-4 first:mt-0;
+}
+
+.prose h1 { @apply text-xl; }
+.prose h2 { @apply text-lg; }
+.prose h3 { @apply text-base; }

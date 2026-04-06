@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Nexus AI: Adaptive Intelligence",
+  "description": "A self-evolving AI assistant that adapts its interface, personality, and features based on your needs. Featuring advanced multimodal capabilities and real-time grounding.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
